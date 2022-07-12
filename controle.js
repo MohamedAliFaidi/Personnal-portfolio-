@@ -15,4 +15,4 @@ function digitalroot(n){
 var inp=document.getElementById('droot').value;
 var button=document.getElementById('btn');
 var r=digitalroot(Number(inp));
-button.onclick=document.getElementById('res').innerHTML=r
+document.getElementById('res').innerHTML=r
