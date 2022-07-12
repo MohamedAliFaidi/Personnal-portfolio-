@@ -1,0 +1,76 @@
+/* importing fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500;600&family=Shadows+Into+Light&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* navigation bar */
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background:rgb(255, 223, 223);
+    font-family: 'Shadows Into Light', cursive; ;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:red;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    
+
+}
+.navbar .menu li a {
+    color:red;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    font-weight:500 ;
+    margin-left: 25px;
+}
+/*home*/
+.home{
+    display: flex;
+    background:url('image/wp5941990-simple-laptop-wallpapers.jpg') no-repeat center  ;
+    opacity: 0.9;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Cormorant SC', serif;}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}    
+.home .home-content .text-1{
+    font-size: 27px; 
+color:rgb(190, 240, 190)}
+    .home .home-content .text-2{
+        font-size: 37px;
+        color:rgb(188, 245, 188)}
+        .home .home-content .text-3{
+            font-size: 47px; 
+            color:rgb(190, 246, 190)}
+            .home .home-content .text-4{
+                font-size: 57px;
+                color:green;}
+                .home .home-content .text-5{
+                    font-size: 33px;
+                    color:rgb(185, 253, 185);}
+.index{
+    background: url('image/wp6006363-minimal-dark-hacker-wallpapers.jpg');
+}
